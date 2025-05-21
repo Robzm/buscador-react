@@ -8,7 +8,7 @@ export const SearchBar = ({ search, onSearch }) => {
                 placeholder="Buscar productos..."
                 value={search}
                 onChange={e => onSearch(e.target.value)}
-                className="border p-2 w-full mb-4 rounded"
+                className="border p-2 w-full mb-4 rounded max-w-md mx-auto"
             />
         </div>
     )
