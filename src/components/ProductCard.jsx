@@ -30,9 +30,7 @@ export const ProductCard = ({ product }) => {
       <div className="relative border border-gray-100 bg-white p-6">
         <p className="text-gray-700">
           ${product.price}
-          <span className="text-gray-400 line-through">
-            ${(product.price * 1.3).toFixed(2)}
-          </span>
+          
         </p>
 
         <h3 className="mt-1.5 text-lg font-medium text-gray-900">
