@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { SearchBar } from "./components/SearchBar";
 import { ProductList } from "./components/ProductList";
+import { Header } from './components/Header';
+
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -26,10 +28,11 @@ function App() {
 
   return (
     <div className="mx-24">
-      <h1 className="text-3xl font-bold my-6">Productos</h1>
+      
+      <Header/>
 
       {/* Buscador y botones de categorías */}
-      <div className="flex flex-wrap gap-4 items-center mb-6">
+      <div className="flex flex-wrap gap-4 items-center mb-6 mt-10">
         <SearchBar search={search} onSearch={setSearch} />
 
         <button
