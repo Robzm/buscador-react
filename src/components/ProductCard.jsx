@@ -4,7 +4,7 @@ export const ProductCard = ({ product }) => {
       <button
         className="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
       >
-        <span className="sr-only">Wishlist</span>
+        
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
